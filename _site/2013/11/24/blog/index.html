@@ -115,7 +115,7 @@
       <span>24 November 2013</span>
     </div>
     <div class="content">
-      <h1 id='jekyllbootstrap'>Jekyll-bootstrap</h1>
+      <h1 id='jekyllbootstrap'>Jekyll-bootstrapのインストールメモ</h1>
 
 <p>条件：以下をインストール済み</p>
 
@@ -125,7 +125,27 @@
 <li>Ruby1.9</li>
 
 <li>git</li>
+
+<li>gem jekyll</li>
 </ul>
+
+<p><code>
+test.rb
+</code></p>
+
+<p>github@jekyllbootstrap をforkしてリポジトリ名を「ユーザー名.github.io」に修正してclone .gitignore で必要なファイルを削除</p>
+
+<ul>
+<li>デフォルトレイアウト(_layouts/default.html)</li>
+
+<li>記事データ用レイアウト(_layouts/post.html)</li>
+
+<li>サイトページ(index.html)</li>
+
+<li>記事データ(_posts/yyyy-mm-dd-blog-title.html)</li>
+</ul>
+
+<p>あとは適当にファイルを修正して jekyll build git commit git push</p>
     </div>
 
     

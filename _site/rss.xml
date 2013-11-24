@@ -5,14 +5,14 @@
         <description>calltella - yuichi asa</description>
         <link>http://calltella.github.io</link>
         <link>http://calltella.github.io</link>
-        <lastBuildDate>2013-11-24T12:21:04+09:00</lastBuildDate>
-        <pubDate>2013-11-24T12:21:04+09:00</pubDate>
+        <lastBuildDate>2013-11-24T13:12:56+09:00</lastBuildDate>
+        <pubDate>2013-11-24T13:12:56+09:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>Jekyll-bootstrap install</title>
-                <description>&lt;h1 id='jekyllbootstrap'&gt;Jekyll-bootstrap&lt;/h1&gt;
+                <description>&lt;h1 id='jekyllbootstrap'&gt;Jekyll-bootstrapのインストールメモ&lt;/h1&gt;
 
 &lt;p&gt;条件：以下をインストール済み&lt;/p&gt;
 
@@ -22,7 +22,27 @@
 &lt;li&gt;Ruby1.9&lt;/li&gt;
 
 &lt;li&gt;git&lt;/li&gt;
-&lt;/ul&gt;</description>
+
+&lt;li&gt;gem jekyll&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;
+test.rb
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;github@jekyllbootstrap をforkしてリポジトリ名を「ユーザー名.github.io」に修正してclone .gitignore で必要なファイルを削除&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;デフォルトレイアウト(_layouts/default.html)&lt;/li&gt;
+
+&lt;li&gt;記事データ用レイアウト(_layouts/post.html)&lt;/li&gt;
+
+&lt;li&gt;サイトページ(index.html)&lt;/li&gt;
+
+&lt;li&gt;記事データ(_posts/yyyy-mm-dd-blog-title.html)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;あとは適当にファイルを修正して jekyll build git commit git push&lt;/p&gt;</description>
                 <link>http://calltella.github.io/2013/11/24/blog</link>
                 <guid>http://calltella.github.io/2013/11/24/blog</guid>
                 <pubDate>2013-11-24T00:00:00+09:00</pubDate>
