@@ -9,4 +9,3 @@ http://calltella.github.io/rss.xml
 http://calltella.github.io/archive.html
 
 http://calltella.github.io/2013/11/24/blog
-http://calltella.github.io/lessons/2011/12/29/jekyll-introduction
